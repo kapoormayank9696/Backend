@@ -17,7 +17,7 @@ public class DriverMetaData {
         ResultSet resultSet = databaseMetaData.getTables(null , null, "%", new String[]{"TABLE"});
         System.out.println("List of Tables : ");
         while(resultSet.next()){
-            System.out.print(resultSet.getString("TABLE_NAME")+"..\t");
+            System.out.print(resultSet.getString("TABLE_NAME")+"\t");
         }
         connection.close();
     }
