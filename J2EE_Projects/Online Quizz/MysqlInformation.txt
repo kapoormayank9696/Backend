@@ -1,0 +1,43 @@
+Q.. For The Quiz Project MySQL Command Are Perform For The Real World Quizzes?
+Sol:-
+
+USE quiz;
+CREATE TABLE questions(id INT AUTO_INCREMENT PRIMARY KEY, question VARCHAR(300) NOT NULL, category TEXT NOT NULL);
+CREATE TABLE options(id INT AUTO_INCREMENT PRIMARY KEY, question_id INT NOT NULL, option_text VARCHAR(200) NOT NULL, correct_answer TINYINT(1) DEFAULT 0,FOREIGN KEY (question_id) REFERENCES questions(id));
+
+
+Q.. IF you want to Insert the data Into The Table?
+Sol:-
+
+LIKE:
+
+INSERT INTO questions
+VALUES('What is correct syntax?', 'Hard');
+INSERT INTO options
+VALUES(7,'template T<class>',0),
+(7,'template<class T>',1),
+(7,'template class<T>',0),
+(7,'template<class T>',1);
+
+
+Q.. If I want to Delete The Inserting Data Which Are Deleted By Using The TRUNCATE Command not Done By DELETE Command
+Sol:-
+
+SET FOREIGN_KEY_CHECKS = 0;
+TRUNCATE TABLE options;
+TRUNCATE TABLE questions;
+SET FOREIGN_KEY_CHECKS = 1;
+
+Q.. For The Result Of Quiz Make A New Table In The Same Database?
+Sol:-
+
+CREATE TABLE quiz_results (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(100) NOT NULL,
+    email VARCHAR(120) NOT NULL,
+    enrollno VARCHAR(30) NOT NULL,
+    score INT NOT NULL,
+    total INT NOT NULL,
+    submitted_on TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    UNIQUE(enrollno)   -- Prevents student from attempting twice
+);

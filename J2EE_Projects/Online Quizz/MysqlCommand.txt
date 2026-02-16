@@ -1,0 +1,36 @@
+// Use for creating database in MySQL
+CREATE DATABASE quizz;
+
+
+// Use for creating tables into database
+USE quizz;
+
+CREATE TABLE options(id int PRIMARY KEY AUTO_INCREMENT , question_id int UNIQUE NOT NULL, option_text VARCHAR(200) NOT NULL, correct_answer tinyint(1) NOT NULL);
+
+CREATE TABLE questions(id int PRIMARY KEY AUTO_INCREMENT, question VARCHAR(300) NOT NULL, category text NOT NULL);
+
+CREATE TABLE quiz_results (
+id INT AUTO_INCREMENT PRIMARY KEY,
+username VARCHAR(100) NOT NULL,
+email VARCHAR(120) NOT NULL,
+enrollno VARCHAR(30) NOT NULL,
+score INT NOT NULL,
+total INT NOT NULL,
+submitted_on TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+UNIQUE(enrollno)
+);
+
+
+// Insert Data Into Tables
+INSERT INTO questions (question, category)
+VALUES ('What is correct syntax?', 'Hard');
+
+INSERT INTO options(question_id, option_text, correct_answer)
+VALUES (7,'template T<class>',0),
+(7,'template<class T>',1),
+(7,'templates<T>',0),
+(7,'template class<T>',0);
+
+
+// Display the data of user 
+SELECT * FROM quiz_results;
