@@ -15,7 +15,7 @@ You will learn how to implement **CRUD operations, handle JSON, connect Java to 
 ## ✅ Topics Covered
 
 ### 💾 JDBC (Java Database Connectivity)
-- Connecting Java with databases (MySQL)
+- Connecting Java with databases (MySQL, PostgreSQL)
 - CRUD operations
 - Prepared statements
 - Metadata usage
