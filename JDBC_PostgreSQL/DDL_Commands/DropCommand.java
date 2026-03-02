@@ -18,7 +18,7 @@ public class DropCommand {
             Connection connection=DriverManager.getConnection(url,username,password);
             Statement statement=connection.createStatement();
             String query="DROP TABLE s";
-            //  String query1="DROP TABLE  IF EXISTS s";
+            //  String query1="DROP TABLE IF EXISTS s";
             int rowsAffected =statement.executeUpdate(query);
             if(rowsAffected == 0){
                 System.out.println("Successfully Drop Table");

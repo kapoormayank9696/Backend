@@ -2,12 +2,13 @@ package JDBC_PostgreSQL.DML_Commands;
 
 import java.sql.*;
 public class InsertCommand {
+    // Define url,username,password of postgresql
+    final static String url="jdbc:postgresql://127.0.0.1:5432/students";
+    final static String username="postgres";
+    final static String password="9689";
 
     // Main function
     public static void main(String[] args) {
-        String url="jdbc:postgresql://127.0.0.1:5432/students";
-        String username="postgres";
-        String password="9689";
         try{
             Class.forName("org.postgresql.Driver");
         }catch(Exception e){
