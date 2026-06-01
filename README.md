@@ -237,9 +237,10 @@ You will learn how to implement **CRUD operations, handle JSON, connect Java to 
 - **Spring Boot (REST APIs)**
 - **MySQL**
 - **Apache Tomcat**
-- **spring initializer**
+- **Spring Initializer**
 - **Maven**
-- **netbeans22**
+- **NetBeans22**
+- **PostMan**
 - **VS Code**
 - **IntelliJ IDEA**
 - **Git & GitHub**
