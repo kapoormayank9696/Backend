@@ -45,9 +45,9 @@ You will learn how to implement **CRUD operations, handle JSON, connect Java to 
 
 -  JDBC/
    - ├── BatchProcessing_DML_Commands/
-         - ├── DeleteCommand.java
-         - ├── InsertCommand.java
-         - └── UpdateCommand.java
+       - ├── DeleteCommand.java
+       - ├── InsertCommand.java
+       - └── UpdateCommand.java
    - ├── CollableStatement/
         - └── SelectCommand.java
    - ├── DDL_Commands/
