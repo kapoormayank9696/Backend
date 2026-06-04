@@ -1,18 +1,18 @@
-## 📘 Java Backend & J2EE Projects
+# 📘 Java Backend & J2EE Projects
 
 This repository contains Java backend and web projects demonstrating **J2EE, JDBC, JSP, and Spring Boot** concepts.  
 It is designed for beginners and intermediate learners who want to understand **enterprise-level Java development** in a practical and hands-on way.
 
 ---
 
-## 📖 About the Project
+# 📖 About the Project
 
 These projects cover **Java backend development** including REST APIs, database interaction, and dynamic web pages using JSP.  
 You will learn how to implement **CRUD operations, handle JSON, connect Java to databases using JDBC**, and integrate **Spring Boot for modern enterprise applications**.
 
 ---
 
-## ✅ Topics Covered
+# ✅ Topics Covered
 
 ### 💾 JDBC (Java Database Connectivity)
 - Connecting Java with databases (MySQL, PostgreSQL)
