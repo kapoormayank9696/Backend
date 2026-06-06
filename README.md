@@ -40,7 +40,7 @@ You will learn how to implement **CRUD operations, handle JSON, connect Java to 
 
 ---
 
-## 📁 Folder Structure
+# 📁 Folder Structure
 
 
 -  JDBC/
