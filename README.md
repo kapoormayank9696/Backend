@@ -229,7 +229,7 @@ You will learn how to implement **CRUD operations, handle JSON, connect Java to 
 
 ---
 
-## 🛠️ Technologies Used
+# 🛠️ Technologies Used
 
 - **Java (Core & OOP)**
 - **J2EE (Servlets, JSP)**
@@ -247,7 +247,7 @@ You will learn how to implement **CRUD operations, handle JSON, connect Java to 
 
 ---
 
-## 🔗 Key Features
+# 🔗 Key Features
 
 - Full CRUD operations for backend projects
 - RESTful API development using Spring Boot
@@ -259,7 +259,7 @@ You will learn how to implement **CRUD operations, handle JSON, connect Java to 
 
 ---
 
-## 🧪 Testing
+# 🧪 Testing
 
 - JDBC projects tested using **MySQL Workbench**
 - JSP pages tested on **Apache Tomcat**
@@ -268,7 +268,7 @@ You will learn how to implement **CRUD operations, handle JSON, connect Java to 
 
 ---
 
-## 📌 Learning Outcomes
+# 📌 Learning Outcomes
 
 - Understanding **enterprise application flow** (J2EE)
 - Working with **databases using JDBC**
@@ -279,7 +279,7 @@ You will learn how to implement **CRUD operations, handle JSON, connect Java to 
 
 ---
 
-## 👤 Author
+# 👤 Author
 
 Mayank Kapoor
 📧 Email: kapoormayank645@gmail.com
@@ -288,7 +288,7 @@ Mayank Kapoor
 
 ---
 
-## ⭐ Support
+# ⭐ Support
 
 If you find this project helpful:
 
@@ -301,7 +301,7 @@ Happy Coding! 🚀
 
 ---
 
-## 🔥 Next Improvements (Optional)
+# 🔥 Next Improvements (Optional)
 
 - Add **badges** for Java, GitHub stars, and license
 
@@ -316,5 +316,9 @@ Happy Coding! 🚀
 - Add more **projects and exercises**
 
 - Review repository structure like a **mentor**
+
+---
+
+# 🚀 Happy Coding!
 
 ---
