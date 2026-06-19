@@ -42,7 +42,6 @@ You will learn how to implement **CRUD operations, handle JSON, connect Java to 
 
 # 📁 Folder Structure
 
-
 -  JDBC/
    - ├── BatchProcessing_DML_Commands/
        - ├── DeleteCommand.java
