@@ -4,7 +4,6 @@ This repository contains Java backend and web projects demonstrating **J2EE, JDB
 It is designed for beginners and intermediate learners who want to understand **enterprise-level Java development** in a practical and hands-on way.
 
 ---
-
 # 📖 About the Project
 
 These projects cover **Java backend development** including REST APIs, database interaction, and dynamic web pages using JSP.  
