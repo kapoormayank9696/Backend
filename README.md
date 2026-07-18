@@ -224,8 +224,7 @@ You will learn how to implement **CRUD operations, handle JSON, connect Java to 
        - ├── Logout.jsp
        - ├── MysqlCommand.txt
        - └── Register.jsp
-
-
+         
 ---
 
 # 🛠️ Technologies Used
