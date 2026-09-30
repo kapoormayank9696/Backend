@@ -2,7 +2,6 @@
 
 This repository contains Java backend and web projects demonstrating **J2EE, JDBC, JSP, and Spring Boot** concepts.  
 It is designed for beginners and intermediate learners who want to understand **enterprise-level Java development** in a practical and hands-on way.
-
 ---
 
 # 📖 About the Project
